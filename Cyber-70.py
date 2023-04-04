@@ -174,7 +174,7 @@ def rcrack(uid,pwx,tl):
 			else:
 				continue
 		loop+=1
-		sys.stdout.write('\r   [%sA4AM8N/%s]  OK:- %s  CP:- %s \r'%(loop,tl,len(oks),len(cps))),
+		sys.stdout.write('\r   [%sCYBER-70/%s]  OK:- %s  CP:- %s \r'%(loop,tl,len(oks),len(cps))),
 		sys.stdout.flush()
 	except:
 		pass
